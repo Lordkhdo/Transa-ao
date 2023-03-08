@@ -8,8 +8,8 @@ import { Global } from "./styles/Global";
 import Home from "./routes/Home";
 
 const route = createBrowserRouter([
-  { path: "/", element: <Home /> },
-  { path: "admeditpag", element: <AdmEditPag /> },
+  { path: "/Transaction", element: <Home /> },
+  { path: "/Transaction/admeditpag", element: <AdmEditPag /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
